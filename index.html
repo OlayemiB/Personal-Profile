@@ -70,6 +70,11 @@ ul.fav{
  margin: 0px;
 list-style: lower-greek;
 }
+input{
+    width: 100%;
+    color: navy;
+
+}
     </style>
 </head>
 
@@ -112,6 +117,13 @@ list-style: lower-greek;
              I believe learning something new keeps you relevant and alert.
         </ul>
     </p>
+    <h2>Contact Form</h2>
+    <form id="contact" name="contact" accept-charset="utf-8">
+        <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
+        <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
+        <label><span>Message</span><input name="message" placeholder="Message"></input></label>
+        <input name="submit" type="submit" value="Send"/>
+    </form>
    
 </body>
 </html>
